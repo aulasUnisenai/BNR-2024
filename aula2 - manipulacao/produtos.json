@@ -1,0 +1,142 @@
+[
+  {
+    "nome": "Cadeira de Escritório",
+    "código": "P001",
+    "categoria": "Móveis",
+    "preço": 249.99,
+    "estoque": 50
+  },
+  {
+    "nome": "Mesa de Jantar",
+    "código": "P002",
+    "categoria": "Móveis",
+    "preço": 399.99,
+    "estoque": 30
+  },
+  {
+    "nome": "Laptop Gaming",
+    "código": "P003",
+    "categoria": "Eletrônicos",
+    "preço": 5999.99,
+    "estoque": 10
+  },
+  {
+    "nome": "Smartphone",
+    "código": "P004",
+    "categoria": "Eletrônicos",
+    "preço": 2999.99,
+    "estoque": 25
+  },
+  {
+    "nome": "Headset Bluetooth",
+    "código": "P005",
+    "categoria": "Eletrônicos",
+    "preço": 199.99,
+    "estoque": 75
+  },
+  {
+    "nome": "Teclado Mecânico",
+    "código": "P006",
+    "categoria": "Eletrônicos",
+    "preço": 149.99,
+    "estoque": 60
+  },
+  {
+    "nome": "Mouse Gamer",
+    "código": "P007",
+    "categoria": "Eletrônicos",
+    "preço": 89.99,
+    "estoque": 80
+  },
+  {
+    "nome": "Relógio Inteligente",
+    "código": "P008",
+    "categoria": "Eletrônicos",
+    "preço": 399.99,
+    "estoque": 20
+  },
+  {
+    "nome": "Camiseta Algodão",
+    "código": "P009",
+    "categoria": "Roupas",
+    "preço": 49.99,
+    "estoque": 200
+  },
+  {
+    "nome": "Calça Jeans",
+    "código": "P010",
+    "categoria": "Roupas",
+    "preço": 129.99,
+    "estoque": 150
+  },
+  {
+    "nome": "Tênis Esportivo",
+    "código": "P011",
+    "categoria": "Calçados",
+    "preço": 249.99,
+    "estoque": 90
+  },
+  {
+    "nome": "Bota de Couro",
+    "código": "P012",
+    "categoria": "Calçados",
+    "preço": 399.99,
+    "estoque": 40
+  },
+  {
+    "nome": "Sofá de 3 Lugares",
+    "código": "P013",
+    "categoria": "Móveis",
+    "preço": 799.99,
+    "estoque": 15
+  },
+  {
+    "nome": "Cama Box Casal",
+    "código": "P014",
+    "categoria": "Móveis",
+    "preço": 999.99,
+    "estoque": 10
+  },
+  {
+    "nome": "Micro-ondas",
+    "código": "P015",
+    "categoria": "Eletrodomésticos",
+    "preço": 249.99,
+    "estoque": 35
+  },
+  {
+    "nome": "Liquidificador",
+    "código": "P016",
+    "categoria": "Eletrodomésticos",
+    "preço": 149.99,
+    "estoque": 45
+  },
+  {
+    "nome": "Aspirador de Pó",
+    "código": "P017",
+    "categoria": "Eletrodomésticos",
+    "preço": 399.99,
+    "estoque": 20
+  },
+  {
+    "nome": "Jogo de Panelas",
+    "código": "P018",
+    "categoria": "Eletrodomésticos",
+    "preço": 299.99,
+    "estoque": 25
+  },
+  {
+    "nome": "Ventilador de Mesa",
+    "código": "P019",
+    "categoria": "Eletrodomésticos",
+    "preço": 99.99,
+    "estoque": 60
+  },
+  {
+    "nome": "Cafeteira Elétrica",
+    "código": "P020",
+    "categoria": "Eletrodomésticos",
+    "preço": 149.99,
+    "estoque": 40
+  }
+]
