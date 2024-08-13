@@ -1,0 +1,43 @@
+// Encontrar todos os documentos
+db.produtos.find({}).pretty()
+
+// Encontrar documento pelo código
+db.produtos.findOne({"código": "P001"})
+
+// Encontrar produtos com preço acima de 200
+db.produtos.find({"preço": {"$gt": 200}}).pretty()
+
+// Encontrar produtos com estoque abaixo de 20
+db.produtos.find({"estoque": {"$lt": 20}}).pretty()
+
+// Encontrar produtos com nome que contém "Smart"
+db.produtos.find({"nome": {"$regex": "Smart", "$options": "i"}}).pretty()
+
+// Encontrar produtos que não estão em uma categoria específica
+db.produtos.find({"categoria": {"$ne": "Eletrônicos"}}).pretty()
+
+// Encontrar produtos com preço entre 100 e 500 e categoria Eletrônicos
+db.produtos.find({
+    "preço": {"$gte": 100, "$lte": 500},
+    "categoria": "Eletrônicos"
+}).pretty()
+
+// Atualizar o preço de um documento
+db.produtos.updateOne(
+    {"código": "P001"},
+    {"$set": {"preço": 259.99}}
+)
+
+// Deletar um documento pelo código
+db.produtos.deleteOne({"código": "P001"})
+
+// Contar o número total de documentos
+db.produtos.countDocuments()
+
+// Encontrar produtos ordenados por estoque em ordem decrescente
+db.produtos.find().sort({"estoque": -1}).pretty()
+
+// Agrupar produtos por categoria e contar o número de produtos em cada categoria
+db.produtos.aggregate([
+    { $group: { _id: "$categoria", totalProdutos: { $sum: 1 } } }
+])
