@@ -57,8 +57,8 @@ for jogo in jogos_avaliacao_alta:
 
 # Consulta 5: Quais plataformas têm o maior número de jogos cadastrados no banco?
 pipeline = [
-    {"$unwind": "$plataformas"},
-    {"$group": {"_id": "$plataformas", "count": {"$sum": 1}}},
+    {"$unwind": "$plataforma"},
+    {"$group": {"_id": "$plataforma", "count": {"$sum": 1}}},
     {"$sort": {"count": -1}},
     {"$limit": 1}
 ]
@@ -77,7 +77,7 @@ for jogo in top_5_jogos:
     print(jogo)
 
 # Consulta 7: Encontre todos os jogos de 'Ação' disponíveis para 'PlayStation 4'.
-query = {"genero": "Ação", "plataformas": "PlayStation 4"}
+query = {"gênero": "Ação", "plataforma": "PlayStation 4"}
 jogos_ps4_acao = collection.find(query, {"nome": 1, "_id": 0})
 print("Jogos de Ação disponíveis para PlayStation 4:")
 for jogo in jogos_ps4_acao:
@@ -90,16 +90,8 @@ print("Jogos da Capcom com avaliação menor que 9.0:")
 for jogo in jogos_capcom:
     print(jogo)
 
-# Consulta 9: Qual jogo de 'Sandbox' tem a maior avaliação no banco de dados?
-query = {"genero": "Sandbox"}
-sort_criteria = [("avaliacao", -1)]
-jogo_top_sandbox = collection.find_one(query, sort=sort_criteria)
-if jogo_top_sandbox:
-    print(f"Jogo de Sandbox com maior avaliação: {jogo_top_sandbox['nome']} com avaliação {jogo_top_sandbox['avaliacao']}")
-
-# Consulta 10: Qual é o nome e a avaliação do jogo mais antigo (primeiro lançado) presente na base de dados?
+# Consulta 9: Qual é o nome e a avaliação do jogo mais antigo (primeiro lançado) presente na base de dados?
 sort_criteria = [("ano_lancamento", 1)]
 jogo_mais_antigo = collection.find_one({}, sort=sort_criteria, projection={"nome": 1, "avaliacao": 1, "ano_lancamento": 1, "_id": 0})
 if jogo_mais_antigo:
     print(f"Jogo mais antigo: {jogo_mais_antigo['nome']} lançado em {jogo_mais_antigo['ano_lancamento']} com avaliação {jogo_mais_antigo['avaliacao']}")
-
