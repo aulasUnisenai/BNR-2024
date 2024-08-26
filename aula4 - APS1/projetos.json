@@ -1,0 +1,530 @@
+[
+  {
+    "nome": "Desenvolvimento de Sistema de E-commerce",
+    "metodologia": "Ágil",
+    "tecnologias": ["Java", "Spring Boot", "MySQL"],
+    "orcamento": 150000,
+    "data_conclusao": "2023-05-20",
+    "lider_projeto": "Carlos Almeida"
+  },
+  {
+    "nome": "Automação de Processos Financeiros",
+    "metodologia": "Waterfall",
+    "tecnologias": ["Python", "Django", "Oracle"],
+    "orcamento": 80000,
+    "data_conclusao": "2022-12-15",
+    "lider_projeto": "Maria Fernandes"
+  },
+  {
+    "nome": "Plataforma de Ensino a Distância",
+    "metodologia": "Ágil",
+    "tecnologias": ["Node.js", "React", "MongoDB"],
+    "orcamento": 120000,
+    "data_conclusao": "2023-08-10",
+    "lider_projeto": "João Pereira"
+  },
+  {
+    "nome": "Sistema de Gestão Hospitalar",
+    "metodologia": "Scrum",
+    "tecnologias": ["C#", ".NET", "SQL Server"],
+    "orcamento": 200000,
+    "data_conclusao": "2024-01-30",
+    "lider_projeto": "Luciana Costa"
+  },
+  {
+    "nome": "Aplicativo Mobile para Fintech",
+    "metodologia": "Kanban",
+    "tecnologias": ["Kotlin", "Firebase"],
+    "orcamento": 70000,
+    "data_conclusao": "2023-06-25",
+    "lider_projeto": "Pedro Santos"
+  },
+  {
+    "nome": "Integração de Sistemas Legados",
+    "metodologia": "Waterfall",
+    "tecnologias": ["Python", "Flask", "PostgreSQL"],
+    "orcamento": 95000,
+    "data_conclusao": "2023-11-05",
+    "lider_projeto": "Paula Oliveira"
+  },
+  {
+    "nome": "Desenvolvimento de API RESTful",
+    "metodologia": "Ágil",
+    "tecnologias": ["Java", "Spring Boot", "MySQL"],
+    "orcamento": 110000,
+    "data_conclusao": "2023-04-18",
+    "lider_projeto": "Rafael Lima"
+  },
+  {
+    "nome": "Sistema de Controle de Estoque",
+    "metodologia": "Scrum",
+    "tecnologias": ["Ruby", "Rails", "SQLite"],
+    "orcamento": 60000,
+    "data_conclusao": "2022-10-12",
+    "lider_projeto": "Vanessa Souza"
+  },
+  {
+    "nome": "Automação Residencial",
+    "metodologia": "Ágil",
+    "tecnologias": ["C", "Arduino", "Firebase"],
+    "orcamento": 50000,
+    "data_conclusao": "2024-02-15",
+    "lider_projeto": "Eduardo Gomes"
+  },
+  {
+    "nome": "Plataforma de Jogos Online",
+    "metodologia": "Ágil",
+    "tecnologias": ["Unity", "C#", "Firebase"],
+    "orcamento": 130000,
+    "data_conclusao": "2023-07-10",
+    "lider_projeto": "Fernanda Braga"
+  },
+  {
+    "nome": "Sistema de Atendimento ao Cliente",
+    "metodologia": "Kanban",
+    "tecnologias": ["PHP", "Laravel", "MySQL"],
+    "orcamento": 85000,
+    "data_conclusao": "2023-09-20",
+    "lider_projeto": "Rodrigo Azevedo"
+  },
+  {
+    "nome": "Aplicativo de Monitoramento de Saúde",
+    "metodologia": "Scrum",
+    "tecnologias": ["Swift", "Core Data"],
+    "orcamento": 95000,
+    "data_conclusao": "2023-03-05",
+    "lider_projeto": "Bianca Reis"
+  },
+  {
+    "nome": "Portal de Notícias",
+    "metodologia": "Ágil",
+    "tecnologias": ["Node.js", "React", "MongoDB"],
+    "orcamento": 70000,
+    "data_conclusao": "2022-11-30",
+    "lider_projeto": "Thiago Barbosa"
+  },
+  {
+    "nome": "Sistema de Votação Online",
+    "metodologia": "Waterfall",
+    "tecnologias": ["Java", "Spring Boot", "Oracle"],
+    "orcamento": 120000,
+    "data_conclusao": "2024-06-15",
+    "lider_projeto": "Mariana Figueiredo"
+  },
+  {
+    "nome": "Plataforma de Streaming de Vídeo",
+    "metodologia": "Ágil",
+    "tecnologias": ["Python", "Django", "PostgreSQL"],
+    "orcamento": 200000,
+    "data_conclusao": "2023-12-22",
+    "lider_projeto": "Gabriel Nunes"
+  },
+  {
+    "nome": "Sistema de Gestão de Projetos",
+    "metodologia": "Kanban",
+    "tecnologias": ["Ruby", "Rails", "SQLite"],
+    "orcamento": 105000,
+    "data_conclusao": "2023-01-25",
+    "lider_projeto": "Julia Castro"
+  },
+  {
+    "nome": "Desenvolvimento de Chatbot",
+    "metodologia": "Ágil",
+    "tecnologias": ["Node.js", "Express", "MongoDB"],
+    "orcamento": 65000,
+    "data_conclusao": "2023-08-14",
+    "lider_projeto": "Lucas Martins"
+  },
+  {
+    "nome": "Aplicativo de Entrega de Comida",
+    "metodologia": "Scrum",
+    "tecnologias": ["Kotlin", "Firebase"],
+    "orcamento": 75000,
+    "data_conclusao": "2024-03-18",
+    "lider_projeto": "Marcia Duarte"
+  },
+  {
+    "nome": "Sistema de Pagamentos Online",
+    "metodologia": "Waterfall",
+    "tecnologias": ["Java", "Spring Boot", "MySQL"],
+    "orcamento": 170000,
+    "data_conclusao": "2023-10-02",
+    "lider_projeto": "Felipe Gomes"
+  },
+  {
+    "nome": "Plataforma de Cursos Online",
+    "metodologia": "Kanban",
+    "tecnologias": ["Python", "Flask", "PostgreSQL"],
+    "orcamento": 90000,
+    "data_conclusao": "2023-11-29",
+    "lider_projeto": "Ana Paula Silva"
+  },
+  {
+    "nome": "Desenvolvimento de Sistema de Reservas",
+    "metodologia": "Ágil",
+    "tecnologias": ["PHP", "Laravel", "MySQL"],
+    "orcamento": 65000,
+    "data_conclusao": "2022-08-19",
+    "lider_projeto": "Juliana Rocha"
+  },
+  {
+    "nome": "Sistema de Gestão de Recursos Humanos",
+    "metodologia": "Scrum",
+    "tecnologias": ["C#", ".NET", "SQL Server"],
+    "orcamento": 125000,
+    "data_conclusao": "2023-06-21",
+    "lider_projeto": "Roberto Dias"
+  },
+  {
+    "nome": "Plataforma de Social Media",
+    "metodologia": "Ágil",
+    "tecnologias": ["Node.js", "React", "MongoDB"],
+    "orcamento": 160000,
+    "data_conclusao": "2024-05-12",
+    "lider_projeto": "Tatiana Mendes"
+  },
+  {
+    "nome": "Desenvolvimento de Sistema de Tickets",
+    "metodologia": "Waterfall",
+    "tecnologias": ["Java", "Spring Boot", "Oracle"],
+    "orcamento": 100000,
+    "data_conclusao": "2023-12-01",
+    "lider_projeto": "Gustavo Costa"
+  },
+  {
+    "nome": "Aplicativo de Gerenciamento de Finanças Pessoais",
+    "metodologia": "Scrum",
+    "tecnologias": ["Swift", "Core Data"],
+    "orcamento": 85000,
+    "data_conclusao": "2024-02-10",
+    "lider_projeto": "Livia Santos"
+  },
+    {
+    "nome": "Sistema de Logística Integrada",
+    "metodologia": "Ágil",
+    "tecnologias": ["Python", "Django", "PostgreSQL"],
+    "orcamento": 140000,
+    "data_conclusao": "2023-07-15",
+    "lider_projeto": "Clara Neves"
+  },
+  {
+    "nome": "Automação de Processos Industriais",
+    "metodologia": "Waterfall",
+    "tecnologias": ["C++", "Arduino", "SQLite"],
+    "orcamento": 180000,
+    "data_conclusao": "2023-09-01",
+    "lider_projeto": "Renato Moreira"
+  },
+  {
+    "nome": "Sistema de Gestão de Frota",
+    "metodologia": "Ágil",
+    "tecnologias": ["Java", "Spring Boot", "PostgreSQL"],
+    "orcamento": 95000,
+    "data_conclusao": "2024-03-30",
+    "lider_projeto": "Camila Alves"
+  },
+  {
+    "nome": "Plataforma de Leilões Online",
+    "metodologia": "Scrum",
+    "tecnologias": ["Ruby", "Rails", "MySQL"],
+    "orcamento": 105000,
+    "data_conclusao": "2023-11-10",
+    "lider_projeto": "Fernando Vieira"
+  },
+  {
+    "nome": "Sistema de Rastreamento de Entregas",
+    "metodologia": "Kanban",
+    "tecnologias": ["Node.js", "Express", "MongoDB"],
+    "orcamento": 110000,
+    "data_conclusao": "2023-10-18",
+    "lider_projeto": "Ricardo Lima"
+  },
+  {
+    "nome": "Plataforma de Consultoria Financeira",
+    "metodologia": "Ágil",
+    "tecnologias": ["Python", "Flask", "MySQL"],
+    "orcamento": 125000,
+    "data_conclusao": "2024-01-14",
+    "lider_projeto": "Gabriela Souza"
+  },
+  {
+    "nome": "Sistema de Gestão Escolar",
+    "metodologia": "Waterfall",
+    "tecnologias": ["C#", ".NET", "SQL Server"],
+    "orcamento": 75000,
+    "data_conclusao": "2023-05-25",
+    "lider_projeto": "Marcos Ferreira"
+  },
+  {
+    "nome": "Aplicativo de Reservas de Viagens",
+    "metodologia": "Scrum",
+    "tecnologias": ["Kotlin", "Firebase"],
+    "orcamento": 98000,
+    "data_conclusao": "2023-08-23",
+    "lider_projeto": "Simone Santos"
+  },
+  {
+    "nome": "Plataforma de Telemedicina",
+    "metodologia": "Ágil",
+    "tecnologias": ["Node.js", "React", "MongoDB"],
+    "orcamento": 155000,
+    "data_conclusao": "2024-04-15",
+    "lider_projeto": "Patrícia Mendes"
+  },
+  {
+    "nome": "Sistema de Auditoria Contábil",
+    "metodologia": "Waterfall",
+    "tecnologias": ["Java", "Spring Boot", "Oracle"],
+    "orcamento": 90000,
+    "data_conclusao": "2023-11-29",
+    "lider_projeto": "Augusto Cardoso"
+  },
+  {
+    "nome": "Desenvolvimento de Aplicativo para Fitness",
+    "metodologia": "Scrum",
+    "tecnologias": ["Swift", "Core Data"],
+    "orcamento": 85000,
+    "data_conclusao": "2024-02-10",
+    "lider_projeto": "Mariana Lopes"
+  },
+  {
+    "nome": "Plataforma de Gestão de Eventos",
+    "metodologia": "Ágil",
+    "tecnologias": ["Python", "Django", "PostgreSQL"],
+    "orcamento": 100000,
+    "data_conclusao": "2023-12-20",
+    "lider_projeto": "Vitor Santos"
+  },
+  {
+    "nome": "Sistema de Monitoramento Ambiental",
+    "metodologia": "Ágil",
+    "tecnologias": ["C", "Arduino", "Firebase"],
+    "orcamento": 60000,
+    "data_conclusao": "2024-05-05",
+    "lider_projeto": "Carolina Barbosa"
+  },
+  {
+    "nome": "Automação de Processos Jurídicos",
+    "metodologia": "Waterfall",
+    "tecnologias": ["C#", ".NET", "SQL Server"],
+    "orcamento": 115000,
+    "data_conclusao": "2023-09-19",
+    "lider_projeto": "Diego Correia"
+  },
+  {
+    "nome": "Plataforma de E-learning Corporativo",
+    "metodologia": "Scrum",
+    "tecnologias": ["Node.js", "React", "MongoDB"],
+    "orcamento": 130000,
+    "data_conclusao": "2024-02-28",
+    "lider_projeto": "Raquel Mendes"
+  },
+  {
+    "nome": "Sistema de Gestão de Inventário",
+    "metodologia": "Ágil",
+    "tecnologias": ["Java", "Spring Boot", "MySQL"],
+    "orcamento": 85000,
+    "data_conclusao": "2023-10-11",
+    "lider_projeto": "Felipe Andrade"
+  },
+  {
+    "nome": "Aplicativo de Monitoramento de Energia",
+    "metodologia": "Scrum",
+    "tecnologias": ["Kotlin", "Firebase"],
+    "orcamento": 72000,
+    "data_conclusao": "2024-03-19",
+    "lider_projeto": "Larissa Gonçalves"
+  },
+  {
+    "nome": "Desenvolvimento de Plataforma de Marketing Digital",
+    "metodologia": "Ágil",
+    "tecnologias": ["Python", "Flask", "MySQL"],
+    "orcamento": 98000,
+    "data_conclusao": "2023-08-10",
+    "lider_projeto": "José Ricardo"
+  },
+  {
+    "nome": "Sistema de Gestão de Bibliotecas",
+    "metodologia": "Waterfall",
+    "tecnologias": ["C#", ".NET", "SQL Server"],
+    "orcamento": 125000,
+    "data_conclusao": "2023-06-20",
+    "lider_projeto": "Sofia Carvalho"
+  },
+  {
+    "nome": "Plataforma de Treinamento Online",
+    "metodologia": "Ágil",
+    "tecnologias": ["Node.js", "React", "MongoDB"],
+    "orcamento": 155000,
+    "data_conclusao": "2024-04-15",
+    "lider_projeto": "Patrícia Mendes"
+  },
+  {
+    "nome": "Sistema de Controle de Qualidade",
+    "metodologia": "Scrum",
+    "tecnologias": ["Python", "Django", "PostgreSQL"],
+    "orcamento": 65000,
+    "data_conclusao": "2023-09-30",
+    "lider_projeto": "Lucas Rocha"
+  },
+  {
+    "nome": "Desenvolvimento de Plataforma de Comércio B2B",
+    "metodologia": "Waterfall",
+    "tecnologias": ["Java", "Spring Boot", "Oracle"],
+    "orcamento": 130000,
+    "data_conclusao": "2024-03-15",
+    "lider_projeto": "Roberta Xavier"
+  },
+  {
+    "nome": "Sistema de Gestão de Transporte Público",
+    "metodologia": "Ágil",
+    "tecnologias": ["C#", ".NET", "SQL Server"],
+    "orcamento": 140000,
+    "data_conclusao": "2024-05-25",
+    "lider_projeto": "Fernando Martins"
+  },
+  {
+    "nome": "Desenvolvimento de Sistema de Atendimento ao Cliente",
+    "metodologia": "Scrum",
+    "tecnologias": ["Node.js", "Express", "MongoDB"],
+    "orcamento": 78000,
+    "data_conclusao": "2023-10-12",
+    "lider_projeto": "Allan Pacheco"
+  },
+  {
+    "nome": "Sistema de Gestão de Energia Sustentável",
+    "metodologia": "Waterfall",
+    "tecnologias": ["Java", "Spring Boot", "MySQL"],
+    "orcamento": 160000,
+    "data_conclusao": "2024-02-20",
+    "lider_projeto": "Giovana Almeida"
+  },
+  {
+    "nome": "Aplicativo de Mobilidade Urbana",
+    "metodologia": "Ágil",
+    "tecnologias": ["Kotlin", "Firebase"],
+    "orcamento": 105000,
+    "data_conclusao": "2023-11-07",
+    "lider_projeto": "Adrian Netto"
+  },
+    {
+    "nome": "Plataforma de Gestão de Cursos Online",
+    "metodologia": "Scrum",
+    "tecnologias": ["Ruby", "Rails", "MySQL"],
+    "orcamento": 95000,
+    "data_conclusao": "2023-12-21",
+    "lider_projeto": "Renata Almeida"
+  },
+  {
+    "nome": "Sistema de Análise de Dados de IoT",
+    "metodologia": "Ágil",
+    "tecnologias": ["Python", "Flask", "MongoDB"],
+    "orcamento": 105000,
+    "data_conclusao": "2024-05-01",
+    "lider_projeto": "Roberto Faria"
+  },
+  {
+    "nome": "Desenvolvimento de Aplicativo Financeiro",
+    "metodologia": "Waterfall",
+    "tecnologias": ["Swift", "Core Data"],
+    "orcamento": 85000,
+    "data_conclusao": "2024-02-15",
+    "lider_projeto": "Tatiana Rocha"
+  },
+  {
+    "nome": "Sistema de Gestão de Estoque",
+    "metodologia": "Scrum",
+    "tecnologias": ["JavaScript", "Node.js", "MongoDB"],
+    "orcamento": 90000,
+    "data_conclusao": "2023-11-30",
+    "lider_projeto": "Vitor Dias"
+  },
+  {
+    "nome": "Plataforma de Suporte a Clientes",
+    "metodologia": "Ágil",
+    "tecnologias": ["Python", "Django", "MySQL"],
+    "orcamento": 115000,
+    "data_conclusao": "2024-03-20",
+    "lider_projeto": "Wesley Fernandes"
+  },
+  {
+    "nome": "Desenvolvimento de Aplicativo para Educação Infantil",
+    "metodologia": "Scrum",
+    "tecnologias": ["Swift", "Core Data"],
+    "orcamento": 95000,
+    "data_conclusao": "2024-04-01",
+    "lider_projeto": "Rafael Matos"
+  },
+  {
+    "nome": "Automação de Processos Logísticos",
+    "metodologia": "Ágil",
+    "tecnologias": ["Python", "Django", "PostgreSQL"],
+    "orcamento": 150000,
+    "data_conclusao": "2024-07-20",
+    "lider_projeto": "Ana Carolina"
+  },
+  {
+    "nome": "Sistema de Análise de Dados para Marketing",
+    "metodologia": "Kanban",
+    "tecnologias": ["Java", "Spring Boot", "MySQL"],
+    "orcamento": 120000,
+    "data_conclusao": "2024-03-15",
+    "lider_projeto": "Lucas Freitas"
+  },
+  {
+    "nome": "Plataforma de Treinamento de Inteligência Artificial",
+    "metodologia": "Ágil",
+    "tecnologias": ["Node.js", "React", "MongoDB"],
+    "orcamento": 200000,
+    "data_conclusao": "2024-10-01",
+    "lider_projeto": "Fernanda Silva"
+  },
+  {
+    "nome": "Aplicativo de Gestão de Dietas",
+    "metodologia": "Scrum",
+    "tecnologias": ["Kotlin", "Firebase"],
+    "orcamento": 85000,
+    "data_conclusao": "2024-05-30",
+    "lider_projeto": "Marcos Leite"
+  },
+  {
+    "nome": "Sistema de Monitoramento de Energia Solar",
+    "metodologia": "Waterfall",
+    "tecnologias": ["C#", ".NET", "SQL Server"],
+    "orcamento": 110000,
+    "data_conclusao": "2024-08-15",
+    "lider_projeto": "Carla Sousa"
+  },
+  {
+    "nome": "Plataforma de Gerenciamento de Tarefas",
+    "metodologia": "Kanban",
+    "tecnologias": ["Ruby", "Rails", "SQLite"],
+    "orcamento": 95000,
+    "data_conclusao": "2024-06-10",
+    "lider_projeto": "Joana Almeida"
+  },
+  {
+    "nome": "Desenvolvimento de API para E-commerce",
+    "metodologia": "Ágil",
+    "tecnologias": ["Python", "Flask", "MySQL"],
+    "orcamento": 130000,
+    "data_conclusao": "2024-09-25",
+    "lider_projeto": "Paulo César"
+  },
+  {
+    "nome": "Automação de Processos Manufatureiros",
+    "metodologia": "Waterfall",
+    "tecnologias": ["C++", "Arduino", "SQLite"],
+    "orcamento": 180000,
+    "data_conclusao": "2024-12-01",
+    "lider_projeto": "Gabriel Monteiro"
+  },
+  {
+    "nome": "Sistema de Controle de Qualidade de Produtos",
+    "metodologia": "Scrum",
+    "tecnologias": ["Node.js", "Express", "MongoDB"],
+    "orcamento": 125000,
+    "data_conclusao": "2024-11-20",
+    "lider_projeto": "Juliana Andrade"
+  }
+]
