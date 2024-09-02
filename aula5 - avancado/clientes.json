@@ -1,0 +1,12 @@
+[
+    {"_id": 1, "nome": "Ana", "idade": 28, "email": "ana@example.com"},
+    {"_id": 2, "nome": "Bruno", "idade": 34, "email": "bruno@example.com"},
+    {"_id": 3, "nome": "Carlos", "idade": 22, "email": "carlos@example.com"},
+    {"_id": 4, "nome": "Daniela", "idade": 30, "email": "daniela@example.com"},
+    {"_id": 5, "nome": "Eduardo", "idade": 45, "email": "eduardo@example.com"},
+    {"_id": 6, "nome": "Fernanda", "idade": 29, "email": "fernanda@example.com"},
+    {"_id": 7, "nome": "Gabriel", "idade": 33, "email": "gabriel@example.com"},
+    {"_id": 8, "nome": "Helena", "idade": 31, "email": "helena@example.com"},
+    {"_id": 9, "nome": "Igor", "idade": 26, "email": "igor@example.com"},
+    {"_id": 10, "nome": "Juliana", "idade": 40, "email": "juliana@example.com"}
+]
