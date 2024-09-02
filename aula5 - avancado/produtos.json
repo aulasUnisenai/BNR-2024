@@ -1,0 +1,12 @@
+[
+    {"_id": 1, "nome": "Produto A", "preco": 100},
+    {"_id": 2, "nome": "Produto B", "preco": 150},
+    {"_id": 3, "nome": "Produto C", "preco": 200},
+    {"_id": 4, "nome": "Produto D", "preco": 250},
+    {"_id": 5, "nome": "Produto E", "preco": 300},
+    {"_id": 6, "nome": "Produto F", "preco": 350},
+    {"_id": 7, "nome": "Produto G", "preco": 400},
+    {"_id": 8, "nome": "Produto H", "preco": 450},
+    {"_id": 9, "nome": "Produto I", "preco": 500},
+    {"_id": 10, "nome": "Produto J", "preco": 550}
+]
