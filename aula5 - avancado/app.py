@@ -16,7 +16,7 @@ username = quote_plus(username)
 password = quote_plus(password)
 
 # URI de conexão
-uri = f"mongodb+srv://{username}:{password}@cluster1.tjqkv.mongodb.net/?retryWrites=true&w=majority&appName=cluster1"
+uri = f"url"
 
 # Criar novo cliente e conectar-se ao servidor
 client = MongoClient(uri, server_api=ServerApi('1'))
